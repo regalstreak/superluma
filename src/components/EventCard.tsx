@@ -1,7 +1,8 @@
-import type { LumaEvent, SelectionState } from "../types";
+import type { LumaEvent, EventEnrichment, SelectionState } from "../types";
 
 interface EventCardProps {
   entry: LumaEvent;
+  enrichment?: EventEnrichment;
   selection: SelectionState;
   onSelectionChange: (state: SelectionState) => void;
 }
@@ -17,8 +18,17 @@ function formatDate(dateStr: string): string {
   });
 }
 
+const AUDIENCE_LABELS: Record<string, string> = {
+  icp: "ICP",
+  investor: "Investor",
+  founder: "Founder",
+  technical: "Technical",
+  irrelevant: "Irrelevant",
+};
+
 export default function EventCard({
   entry,
+  enrichment,
   selection,
   onSelectionChange,
 }: EventCardProps) {
@@ -43,6 +53,14 @@ export default function EventCard({
     going: "Going",
     not_going: "Not Going",
   };
+
+  const scoreClass = enrichment
+    ? enrichment.relevance_score >= 7
+      ? "score-high"
+      : enrichment.relevance_score >= 4
+        ? "score-mid"
+        : "score-low"
+    : "";
 
   return (
     <div className={`event-card ${selection}`}>
@@ -73,6 +91,37 @@ export default function EventCard({
             {isFree ? "Free" : "Paid"}
           </span>
         </div>
+
+        {enrichment && (
+          <div className="event-enrichment">
+            <span className={`relevance-badge ${scoreClass}`}>
+              {enrichment.relevance_score}/10
+            </span>
+            <span
+              className={`networking-badge ${enrichment.networking_potential}`}
+            >
+              {enrichment.networking_potential}
+            </span>
+            {enrichment.audience_categories.map((cat) => (
+              <span key={cat} className={`audience-tag tag-${cat}`}>
+                {AUDIENCE_LABELS[cat] ?? cat}
+              </span>
+            ))}
+            <span className="event-type-tag">{enrichment.event_type}</span>
+            {enrichment.has_food_drinks && (
+              <span
+                className="food-badge"
+                title={enrichment.food_drinks_details}
+              >
+                {enrichment.food_drinks_details || "Food/Drinks"}
+              </span>
+            )}
+          </div>
+        )}
+
+        {enrichment?.why_attend && (
+          <p className="event-why-attend">{enrichment.why_attend}</p>
+        )}
 
         {address && <div className="event-address">{address}</div>}
 

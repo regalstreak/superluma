@@ -26,6 +26,25 @@ export interface LumaEvent {
 
 export type SelectionState = "going" | "not_going" | "undecided";
 
+export type AudienceCategory =
+  | "icp"
+  | "investor"
+  | "founder"
+  | "technical"
+  | "irrelevant";
+
+export interface EventEnrichment {
+  relevance_score: number;
+  audience_categories: AudienceCategory[];
+  event_type: string;
+  networking_potential: "high" | "medium" | "low";
+  why_attend: string;
+  has_food_drinks: boolean;
+  food_drinks_details: string;
+}
+
 export type FilterSelection = SelectionState | "all";
 export type FilterPrice = "all" | "free" | "paid";
-export type SortBy = "date" | "guests";
+export type FilterAudience = "all" | AudienceCategory;
+export type FilterFoodDrinks = "all" | "yes" | "no";
+export type SortBy = "date" | "guests" | "relevance";

@@ -11,6 +11,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, "..");
 
 const BASE_URL = "https://api2.luma.com/discover/get-paginated-events";
+const EVENT_URL = "https://api2.luma.com/event/get";
+
+const CONCURRENCY = 5; // parallel detail fetches
 
 const HEADERS: Record<string, string> = {
   accept: "*/*",
@@ -51,9 +54,11 @@ interface ApiResponse {
   next_cursor?: string;
 }
 
-async function fetchPage(cursor?: string): Promise<ApiResponse> {
+const SLUGS = ["ai", "tech"];
+
+async function fetchPage(slug: string, cursor?: string): Promise<ApiResponse> {
   const params: FetchPageParams = {
-    slug: "ai",
+    slug,
     pagination_limit: 50,
     ...BBOX,
   };
@@ -74,21 +79,21 @@ async function fetchPage(cursor?: string): Promise<ApiResponse> {
   return response.json() as Promise<ApiResponse>;
 }
 
-async function fetchAllEvents(): Promise<unknown[]> {
-  const allEvents: unknown[] = [];
+async function fetchEventsForSlug(slug: string): Promise<unknown[]> {
+  const events: unknown[] = [];
   let cursor: string | undefined;
   let page = 1;
 
-  console.log("Fetching Luma AI events for Bay Area...");
+  console.log(`Fetching Luma "${slug}" events for Bay Area...`);
 
   while (true) {
     process.stdout.write(`  Page ${page}... `);
 
-    const data = await fetchPage(cursor);
+    const data = await fetchPage(slug, cursor);
     const entries = data.entries ?? [];
     console.log(`${entries.length} events`);
 
-    allEvents.push(...entries);
+    events.push(...entries);
 
     if (!data.has_more) {
       console.log("  No more pages.");
@@ -106,12 +111,96 @@ async function fetchAllEvents(): Promise<unknown[]> {
     await new Promise((r) => setTimeout(r, 500));
   }
 
-  console.log(`\nTotal events fetched: ${allEvents.length}`);
-  return allEvents;
+  console.log(`  Subtotal for "${slug}": ${events.length}\n`);
+  return events;
+}
+
+async function fetchAllEvents(): Promise<unknown[]> {
+  const allEvents: unknown[] = [];
+
+  for (const slug of SLUGS) {
+    const events = await fetchEventsForSlug(slug);
+    allEvents.push(...events);
+  }
+
+  // Deduplicate by event api_id
+  const seen = new Set<string>();
+  const unique = allEvents.filter((entry: any) => {
+    const id = entry?.event?.api_id;
+    if (!id || seen.has(id)) return false;
+    seen.add(id);
+    return true;
+  });
+
+  console.log(`Total fetched: ${allEvents.length}, after dedup: ${unique.length}`);
+  return unique;
+}
+
+/** Extract plain text from a ProseMirror/TipTap description_mirror doc */
+function extractText(node: any): string {
+  if (!node) return "";
+  if (node.type === "text") return node.text ?? "";
+  if (!Array.isArray(node.content)) return "";
+  const parts = node.content.map(extractText);
+  // Add newline between block-level nodes
+  if (["doc", "paragraph", "heading", "blockquote", "listItem"].includes(node.type)) {
+    return parts.join("") + "\n";
+  }
+  return parts.join("");
+}
+
+async function fetchEventDescription(apiId: string): Promise<string> {
+  const url = `${EVENT_URL}?event_api_id=${apiId}`;
+  const response = await fetch(url, { headers: HEADERS });
+  if (!response.ok) return "";
+  const data = (await response.json()) as any;
+  return extractText(data.description_mirror).trim();
+}
+
+/** Process items in batches with concurrency limit */
+async function mapWithConcurrency<T, R>(
+  items: T[],
+  fn: (item: T) => Promise<R>,
+  concurrency: number,
+): Promise<R[]> {
+  const results: R[] = new Array(items.length);
+  let index = 0;
+
+  async function worker() {
+    while (index < items.length) {
+      const i = index++;
+      results[i] = await fn(items[i]);
+    }
+  }
+
+  await Promise.all(Array.from({ length: concurrency }, () => worker()));
+  return results;
+}
+
+async function enrichWithDescriptions(events: any[]): Promise<void> {
+  console.log(`\nFetching descriptions for ${events.length} events (concurrency: ${CONCURRENCY})...`);
+  let done = 0;
+
+  await mapWithConcurrency(
+    events,
+    async (entry) => {
+      const id = entry?.event?.api_id;
+      if (id) {
+        const desc = await fetchEventDescription(id);
+        if (desc) entry.event.description = desc;
+      }
+      done++;
+      if (done % 50 === 0 || done === events.length) {
+        console.log(`  ${done}/${events.length} done`);
+      }
+    },
+    CONCURRENCY,
+  );
 }
 
 async function main() {
   const events = await fetchAllEvents();
+  await enrichWithDescriptions(events);
 
   const outDir = join(PROJECT_ROOT, "public");
   mkdirSync(outDir, { recursive: true });

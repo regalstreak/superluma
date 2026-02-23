@@ -182,6 +182,114 @@
   font-weight: 500;
 }
 
+/* Enrichment row */
+.event-enrichment {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+
+.relevance-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.15em 0.5em;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.relevance-badge.score-high {
+  background: #34a853;
+}
+
+.relevance-badge.score-mid {
+  background: #e67700;
+}
+
+.relevance-badge.score-low {
+  background: #999;
+}
+
+.networking-badge {
+  font-size: 0.72rem;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-transform: capitalize;
+}
+
+.networking-badge.high {
+  border-color: #34a853;
+  color: #34a853;
+}
+
+.networking-badge.medium {
+  border-color: #e67700;
+  color: #e67700;
+}
+
+.networking-badge.low {
+  border-color: #999;
+  color: #999;
+}
+
+.audience-tag {
+  font-size: 0.7rem;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.audience-tag.tag-icp {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.audience-tag.tag-investor {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.audience-tag.tag-founder {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.audience-tag.tag-technical {
+  background: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.audience-tag.tag-irrelevant {
+  background: #f5f5f5;
+  color: #999;
+}
+
+.event-type-tag {
+  font-size: 0.7rem;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  background: #f0f0f0;
+  color: #555;
+  text-transform: capitalize;
+}
+
+.food-badge {
+  font-size: 0.7rem;
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  background: #fff8e1;
+  color: #f57f17;
+}
+
+.event-why-attend {
+  font-size: 0.78rem;
+  color: #4a6cf7;
+  font-style: italic;
+  margin: 0.3rem 0 0;
+}
+
 .event-address {
   font-size: 0.8rem;
   color: #888;

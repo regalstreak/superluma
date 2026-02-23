@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import type { LumaEvent, SelectionState } from "./types";
+import type { LumaEvent, SelectionState, EventEnrichment } from "./types";
 import EventList from "./components/EventList";
 import "./App.css";
 
@@ -20,6 +20,9 @@ function saveSelections(selections: Record<string, SelectionState>) {
 
 export default function App() {
   const [events, setEvents] = useState<LumaEvent[]>([]);
+  const [enrichments, setEnrichments] = useState<
+    Record<string, EventEnrichment>
+  >({});
   const [selections, setSelections] = useState<Record<string, SelectionState>>(
     loadSelections
   );
@@ -27,13 +30,18 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/events.json")
-      .then((res) => {
+    Promise.all([
+      fetch("/events.json").then((res) => {
         if (!res.ok) throw new Error(`Failed to load events: ${res.status}`);
         return res.json();
-      })
-      .then((data: LumaEvent[]) => {
-        setEvents(data);
+      }),
+      fetch("/enrichment.json")
+        .then((res) => (res.ok ? res.json() : {}))
+        .catch(() => ({})),
+    ])
+      .then(([eventsData, enrichmentData]) => {
+        setEvents(eventsData);
+        setEnrichments(enrichmentData);
         setLoading(false);
       })
       .catch((err) => {
@@ -80,6 +88,7 @@ export default function App() {
       <h1>Bay Area AI Events</h1>
       <EventList
         events={events}
+        enrichments={enrichments}
         selections={selections}
         onSelectionChange={handleSelectionChange}
       />
