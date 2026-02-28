@@ -8269,5 +8269,3400 @@
     "why_attend": "Hustle Fund-hosted casual founder mixer is ideal for meeting early-stage founders and VCs in a relaxed setting with strong serendipity potential.",
     "has_food_drinks": true,
     "food_drinks_details": "pizza"
+  },
+  "evt-TNWxl2sgmHlbyNC": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Ecological regeneration niche has zero overlap with B2C SaaS product/growth audience or relevant investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-9EUGCDCH3kiPjNQ": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Intimate dinner with Unusual Ventures ($1B+ AUM investing in AI and Data Infrastructure) offers direct face time with relevant investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-4OECfSqRnROwfVL": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Biotech/cybernetics focus falls squarely in the excluded health-tech/biotech category with no relevant ICPs.",
+    "has_food_drinks": true,
+    "food_drinks_details": "food and drinks provided"
+  },
+  "evt-0X9dpgXd7JLGAPg": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Robotics and physical AI hardware workshop is outside target audience and in an explicitly excluded category.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-T37FFu2nwPY6JEn": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Technical coding session may attract some AI builders but format limits networking and audience skews developer, not product/growth.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-PdIKsWAvZQTfEVy": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Founder-only networking with partners like JP Morgan and Sheppard Mullin, plus SaaS founders like MindPal, offers strong peer and investor connections.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-aXP9kdjg158E8ao": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Brings together tech founders and funders with a networking focus, though the community-specific scope may limit ICP density.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-17ilQ6nZUCrAFRV": {
+    "relevance_score": 9,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "social",
+    "networking_potential": "high",
+    "why_attend": "Mixer with YC W26/F25/S25 founders from AI-native startups like Composio and WorkOS is ideal for meeting cracked founders and potential investors in a relaxed setting.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks + music + dancing"
+  },
+  "evt-jOWQcdWjPJ7uzrc": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "AR/VR spatial computing metaverse hackathon has no overlap with B2C SaaS revenue expansion or target audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-cjnVdWzGCHMVwXm": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Biotech protein design hackathon is an explicitly excluded category with no relevant ICPs, investors, or adjacent founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-QrEyGSl3kohzWrs": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Tiny academic HCI reading group with no ICP, investor, or founder overlap.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-EVCUe0DssMgUp72": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Consumer AI founders and builders in a relaxed setting—good for adjacent founder connections, though audience skews consumer/community AI rather than growth/product.",
+    "has_food_drinks": true,
+    "food_drinks_details": "charcuterie, wine, dietary-inclusive options"
+  },
+  "evt-sRUCznGsR5A97I3": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Deep technical RL paper reading for PhDs and CTOs—wrong audience unless seeking a technical cofounder or ML hire.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-b4xutJ9YXDW2yYe": {
+    "relevance_score": 9,
+    "audience_categories": [
+      "icp",
+      "founder"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Curated GTM and growth leaders from high-growth startups (hosted by Tembo, Delve, Vercel)—a direct hit on ICPs and cracked founders with structured relationship-building.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner (break bread format)"
+  },
+  "evt-FlErbD5YOh2lRvC": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Curated breakfast for seed-stage AI/SaaS founders with intentional seating—high-signal peer conversations and likely angel/investor overlap.",
+    "has_food_drinks": true,
+    "food_drinks_details": "breakfast provided"
+  },
+  "evt-3PSknOjr4Pt5QJC": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Health tech / chronic illness focus—explicitly outside Refix Prism's target verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-muQKS84hlKuBwh1": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "medium",
+    "why_attend": "Large AI builder community with Cognition demos—decent for meeting technical founders, but dev-tool heavy and build-focused limits networking time.",
+    "has_food_drinks": true,
+    "food_drinks_details": "food provided at doors open"
+  },
+  "evt-lKyVtlIhZhFHxHB": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "conference",
+    "networking_potential": "medium",
+    "why_attend": "AI infrastructure researchers at Stanford—too deep-infra and research-oriented, though FounderCoHo co-hosting may attract some founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-x564ENjzE4HRGKY": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "medium",
+    "why_attend": "Fast-paced hackathon with founders and developers—possible founder connections but hackathon format prioritizes building over networking.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-NH6QVznqdVdcqqa": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Niche visual-generative coding session with very small attendance—minimal overlap with ICPs or investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-KkjwRcMOvbNuaKR": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Biotech/health AI focus is explicitly outside your target verticals and based in Berkeley.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-Otl6ZagbMK8YRWl": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Novelty cat-themed coding jam with only 4 guests and zero relevance to your ICP or investor targets.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-YV5bZnfdXCxkaDZ": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Curated, intentionally-seated breakfast of VC-backed AI founders (Seed–Series B) is ideal for peer connections and warm investor intros.",
+    "has_food_drinks": true,
+    "food_drinks_details": "breakfast"
+  },
+  "evt-dCzjH7vPGNvYQRg": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "demo_day",
+    "networking_potential": "medium",
+    "why_attend": "Small launch party for an AI developer tool—could meet technical founders but unlikely to find ICPs or investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "likely drinks (launch party format)"
+  },
+  "evt-LHbftKIjQBpYrnC": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "AI-agent-focused developer meetup from LangChain could surface technical founders and people building AI-powered products adjacent to your space.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-5r1AGbU0DMpmSe6": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Autonomous trucking/hardware industry event in Mountain View is completely outside your target verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-Dxib3F04Phh4UpB": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Hands-on generative image AI workshop with no clear city or audience overlap with product/growth SaaS people.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-c7sR5OXaPcuP7SW": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "Small AI-workflow workshop co-hosted with Pebblebed VC—possible investor intro but audience skews small-business, not B2C SaaS.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-EkceDntyaFMKo0D": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Curated SaaS & AI founder breakfast (Seed–Series B) with intentional seating is perfect for meeting cracked adjacent founders and potential investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "breakfast"
+  },
+  "evt-UtkNxvEGFnlKGHP": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "investor",
+      "technical"
+    ],
+    "event_type": "conference",
+    "networking_potential": "medium",
+    "why_attend": "Large-format live AI podcast (~300 people) with notable speakers offers broad exposure to the AI ecosystem and potential investor/founder encounters.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-qfjs1GDZ3bYvwBp": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Robotics/hardware focus is outside your target vertical and ICP profile.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-ppHbJlzFFCqt9Eb": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "HR/talent audience doesn't overlap with product and growth ICPs despite being a nice SF happy hour.",
+    "has_food_drinks": true,
+    "food_drinks_details": "happy hour with bites + drinks"
+  },
+  "evt-VpvVfabiukskdsO": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "demo_day",
+    "networking_potential": "medium",
+    "why_attend": "Technical founders and engineers at a high-signal SF demo night could yield adjacent-space connections.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-bhddZ7BMiF5EVjs": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Curated, invite-only gathering of YC and AI founders plus investors is ideal for fundraising and founder connections.",
+    "has_food_drinks": true,
+    "food_drinks_details": "happy hour drinks"
+  },
+  "evt-LKCRYLT64ZTBTIA": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "icp",
+      "founder"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Intimate dinner with GTM leaders discussing AI-driven revenue aligns directly with your revenue expansion copilot positioning.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner at Bourbon Steak (upscale steakhouse)"
+  },
+  "evt-AqOSLZCEQMOrQFH": {
+    "relevance_score": 9,
+    "audience_categories": [
+      "icp",
+      "founder"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Product leaders and founders at an intimate dinner is the single best setting to meet your core ICPs.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner + drinks"
+  },
+  "evt-kQugiUP9LrWbzNb": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "Large hands-on automation workshop attracts a broad crowd but the workshop format limits meaningful networking.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-cMuiZuLZXQjM4xu": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Biotech-focused event is explicitly outside your target verticals.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner included with ticket"
+  },
+  "evt-hFOkhDLEfg7Dug8": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Spatial web/metaverse hackathon is far from your B2C SaaS focus with very low attendance so far.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-3mWt31jEY1VLtG9": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "Early-stage founders building with no-code tools in Palo Alto could offer some connections but skews very early stage.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-H8zUNe2AGPSxdIS": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Intimate builder gathering with a growth/marketing host from Verita AI offers genuine but small-scale networking with tech operators.",
+    "has_food_drinks": true,
+    "food_drinks_details": "3 premium teas + food pairings"
+  },
+  "evt-52nagWfxolBSR2F": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "icp",
+      "founder"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "high",
+    "why_attend": "GTM-focused workshop attracts exactly the growth leads and startup operators who are Refix Prism's ICPs, with co-working time to build relationships.",
+    "has_food_drinks": true,
+    "food_drinks_details": "curated chocolate tasting + snacks"
+  },
+  "evt-O4s8B5jHbbOviiV": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "demo_day",
+    "networking_potential": "low",
+    "why_attend": "Gaming-focused accelerator demo day is outside Refix Prism's target verticals entirely.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-mVmEjiNAHWscvdJ": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Ethereum/crypto design sprint is far from B2C SaaS revenue expansion and unlikely to surface relevant ICPs or investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-4jftBNYcd0LHFzT": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "high",
+    "why_attend": "Established monthly investor summit with 400+ attendees is a strong venue to pitch to angels and VCs and meet fellow AI startup founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-BDZF787AltPcP0O": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "AI safety and robotics talks skew academic/research and are unlikely to attract product, growth, or investor contacts relevant to Refix Prism.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-NaE0B0Jw7bsi2ml": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Art-games exhibition during GDC week targets the gaming/art community with no overlap to B2C SaaS growth or investment.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-473Ij8gURLqKfVV": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Niche creative-coding book club on neuroevolution has no meaningful overlap with Refix Prism's target audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-Y95d3fYHlvAt46I": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Hands-on LLM infrastructure workshop is purely technical with no GTM, product, or investor audience relevant to Refix Prism.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-PGOHmyh7LDBe6jw": {
+    "relevance_score": 9,
+    "audience_categories": [
+      "investor",
+      "founder",
+      "icp"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "VC happy hour explicitly themed around scaling AI startups and revenue growth draws the exact mix of VCs, growth operators, and AI founders Refix Prism needs to meet.",
+    "has_food_drinks": true,
+    "food_drinks_details": "happy hour drinks"
+  },
+  "evt-hFyy0qYlCwafuyJ": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "Small group with Anthropic co-hosting draws some tech founders, but the SMB operator audience is far from your B2C SaaS ICP.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-fttuF5eZWfyxKLS": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Biotech peptide drug discovery panel is completely outside your target verticals and audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-t4u2cIutEO1Lpzp": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "icp",
+      "founder",
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "Directly relevant topic — AI agents for growth and documentation in software teams, with a PM host — but very low attendance (3 guests) limits networking upside.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-uG7BgI2Ij2DBUvY": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Gaming-focused 3D art showcase during GDC is outside your target verticals entirely.",
+    "has_food_drinks": true,
+    "food_drinks_details": "pizza + drinks"
+  },
+  "evt-OaRsws7Ty5XnTsM": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "conference",
+    "networking_potential": "medium",
+    "why_attend": "BytePlus product demos attract enterprise AI builders, but the focus is on content generation tools rather than product/growth teams at B2C SaaS companies.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-Palh2G6n6BwmTdo": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "AI character creation and game developer focus makes this gaming-adjacent — outside your target verticals despite some investor presence.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-bNdw9QX7MwWaHoe": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "investor",
+      "founder",
+      "technical"
+    ],
+    "event_type": "conference",
+    "networking_potential": "medium",
+    "why_attend": "Commerce/media multimodal AI focus has some B2C overlap and includes a fund partner, but the event skews toward the Chinese going-global community and content/retail verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-MDGPJ7yXz9wfOsO": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "technical",
+      "investor"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Intimate curated dinner with AI founders and technical leaders offers high-quality networking, though the infrastructure focus is adjacent rather than directly your ICP.",
+    "has_food_drinks": true,
+    "food_drinks_details": "private dinner"
+  },
+  "evt-XgQEdGqIvwu3YqP": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "CMU open-mic format lets you pitch to a strong alumni/founder network for visibility with potential investors, though the supply chain theme is off-target.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-VdlZHV9K0ELy7nc": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Hardware-centric open-source AI hackathon requires a GTC pass and targets infra developers, not your product/growth ICP.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-AiqgTuLnXyHKVkd": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "conference",
+    "networking_potential": "high",
+    "why_attend": "Full-day VC conference in Menlo Park packed with investors, fund managers, and founders from the global venture ecosystem—ideal for fundraising conversations.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Full-day conference (8am–7pm), meals likely provided"
+  },
+  "evt-l9mAaeyhB0LbauC": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Private gathering with founders using AI for growth, but the focus on international brand localization and market entry into North America is tangential to Refix Prism's core audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-qBrgUc8hRy5JkSl": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "technical",
+      "investor"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "high",
+    "why_attend": "South Park Commons draws elite technical founders and builders; great for serendipitous connections with cracked founders, though the AI/spatial intelligence topic isn't directly relevant.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-iQZ08P0muugiV8y": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Heavy GPU/inference infrastructure focus with AI builders—too deep in the infra stack to find product/growth ICPs or relevant investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Happy hour with drinks"
+  },
+  "evt-6YhEYbKOVPF5EI9": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Fun casual happy hour with free food and arcade games, but the audience skews ML infrastructure engineers rather than product/growth people or investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Free food and drinks"
+  },
+  "evt-CbaBUaLPKF8v81I": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "icp",
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "Speakers from Dropbox and Shopify (strong B2C SaaS ICPs) discussing production LLM use cases—good chance to connect with product and engineering leads at target companies.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Food and drinks during networking (5:30–6:00)"
+  },
+  "evt-BHMvq5m8ZbqAK6V": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "Data infrastructure focus (Neo4j, Fivetran, NVIDIA) is too deep in the data engineering stack—unlikely to find product managers, growth leads, or relevant investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-3y6aoWZOLlVunG8": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Direct access to 160+ active angel investors and cross-border entrepreneurs interested in AI startups—strong fundraising opportunity despite the Asia-focused lens.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-A930ndu7qqhkFUD": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "icp",
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Hands-on product demo for DevRev's AI tool targeting support/product/engineering teams—some ICP overlap but limited networking since it's essentially a vendor workshop.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-F6YSz6tPnYbFPBy": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Japanese-language event focused on Framer's Japan market expansion—wrong audience, wrong language, and wrong geographic focus for Refix Prism's goals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-C8unaXv9PHTyULr": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Hardware semiconductor focus is explicitly outside Refix Prism's target audience and excluded verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-hkuspWH5ibKoeS5": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "medium",
+    "why_attend": "Technical builders and AI developers attend but unlikely to find product/growth ICPs or investors here.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-RgttVlapLrYbVSU": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "icp",
+      "founder",
+      "technical"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Product leaders (CPO of You.com, CEO of Thunkable, CTO of 1Password) and Founders Bay network offer strong ICP and founder connections.",
+    "has_food_drinks": true,
+    "food_drinks_details": "evening networking reception with likely drinks"
+  },
+  "evt-hykffVMZKXQ8PYL": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Technical writing career panel is too niche and unlikely to surface product managers, growth leads, or investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-e3t73WC7LmKj42Y": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "low",
+    "why_attend": "Cybersecurity buyer audience (CISOs) is outside B2C product/growth ICP and the security vertical isn't adjacent.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-atb8eReHJp8LCr9": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "AI security dinner targets security practitioners and vendors, not B2C product/growth teams or relevant founders.",
+    "has_food_drinks": true,
+    "food_drinks_details": "chef-driven tasting menu dinner at Michelin Guide Indian restaurant"
+  },
+  "evt-IuHFcq7TbUtyWDg": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Intimate founders dinner with AI builders in an adjacent (non-excluded) vertical offers high-quality founder networking.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner + drinks"
+  },
+  "evt-A1rE1E9z435SebH": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Threat modeling practitioners and AppSec leaders are entirely outside Refix Prism's target audience.",
+    "has_food_drinks": true,
+    "food_drinks_details": "tacos and margaritas"
+  },
+  "evt-FflgDQ2aK1r9bfm": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "low",
+    "why_attend": "UK cybersecurity SME showcase has no overlap with B2C product/growth ICPs, relevant investors, or adjacent founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-1oZQwFhElG07VOh": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Agentic AI security discussion is narrowly focused on cybersecurity with no clear path to B2C product/growth contacts.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-Xp5AOjEKA0N8mXj": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Physical AI, robotics, and hardware focus has no overlap with your B2C SaaS ICP or investor targets.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-WtUv2fUrqx4blbD": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "high",
+    "why_attend": "Direct 2-minute pitch opportunity to investor judges plus tech founder networking makes this a high-ROI event for fundraising and visibility.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-WFQhlsLnTyZMtQ0": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "medium",
+    "why_attend": "Good investor and AI founder density at SVB Experience Center, though the women-led focus means you'd attend as a networker rather than a pitcher.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-onuVRllT4oH4Wpo": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Intimate, curated dinner with serious AI founders and technical leaders offers the deepest relationship-building opportunity of any event on this list.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Seasonal tasting dinner curated by Quince/Cotogna chefs at a private North Beach loft"
+  },
+  "evt-BsYF8sdiaPFlwkM": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Korean automotive and mobility supplier showcase has zero overlap with your B2C SaaS audience or investor targets.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-KDEWt02xp3pbBTA": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Post-HumanX social hosted by respected AI infra companies (Browserbase, Modal, Braintrust) attracts technical founders in adjacent developer-tools spaces.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Likely drinks (after-hours social format)"
+  },
+  "evt-Q6hYa35FeFpJdbE": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "OpenAI hardware fireside chat at Stanford targets hardware engineers with no relevance to your B2C SaaS growth audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-6PPnLrXPdXBVfdl": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "conference",
+    "networking_potential": "medium",
+    "why_attend": "LLM/AI engineer conference may surface technical co-builders but lacks the product managers and growth leads who are your core ICP.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-wugpArpDZtDiu3k": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "AI SaaS M&A landscape discussion attracts investors and SaaS founders, offering relevant context for your fundraising and market positioning.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-qrYtWlcgA8lBHhi": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Community-focused personal website workshop for women in tech has limited overlap with your ICP, investor, or founder networking goals.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Dinner implied by 'Design & Dine' format"
+  },
+  "evt-mrX6MOTdof8MIZy": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Career coaching certification training has zero overlap with B2C SaaS product/growth audience or investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-h3W7HSADe6eIThN": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "conference",
+    "networking_potential": "high",
+    "why_attend": "Premier early-stage conference where pre-seed to Series A founders meet investors, with dedicated tracks on AI, growth, and fundraising.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-D5IqG7VJKFmpC3F": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "investor"
+    ],
+    "event_type": "conference",
+    "networking_potential": "medium",
+    "why_attend": "Institutional investor and policymaker audience skews macro/economic rather than startup operator, but could yield some VC connections.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-yqOmUBgCFOOYumn": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Hardware/chip company fireside chat draws a deep-tech audience far from B2C SaaS product and growth teams.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-UQUQ7WEpTZvCl4Y": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Academic machine consciousness research conference in late May with no relevance to B2C growth or revenue expansion.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-G8gjoO9QzOAOfrg": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "Stanford founder community workshop on GTM strategy and pitching could surface early-stage founders in adjacent spaces, though skews student.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-BZCiLCCRvsqLfqZ": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Light DAO's 5,000+ entrepreneur network includes 1,000 investors, but this specific salon is health-innovation themed which is outside target verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-vFvINTTBI8kR6aK": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "founder",
+      "investor",
+      "technical"
+    ],
+    "event_type": "demo_day",
+    "networking_potential": "high",
+    "why_attend": "Stanford demo day with 88 attendees and dinner is a strong venue to meet builders, demo your product, and connect with technical founders.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-SJa0PGCvNTfQzD1": {
+    "relevance_score": 9,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Intimate, industry-specific investor roundtables with leading VCs and top Stanford founders — ideal for fundraising conversations and high-signal introductions.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-mgcbyBHLir54X3Y": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Beginner Figma auto-layout tutorial for Berkeley design students has no relevance to target audience.",
+    "has_food_drinks": true,
+    "food_drinks_details": "free boba for first 20 attendees"
+  },
+  "evt-eCtFKjbCjWjtoSI": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Exclusive YC founder dinner but appears to be a recruiting/evaluation dinner for Embedder candidates, not a general networking opportunity.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-0JC551VQ48zBjcc": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Curated small-group dinner with founders, investors, and operators designed for genuine connection over free sushi.",
+    "has_food_drinks": true,
+    "food_drinks_details": "free sushi"
+  },
+  "evt-4QwSJ5hA3Yc6wwI": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "medium",
+    "why_attend": "Open mixer plus pitch session with judges offers exposure to early-stage founders and potential investors at Hacker Dojo.",
+    "has_food_drinks": true,
+    "food_drinks_details": "refreshments"
+  },
+  "evt-7FXhP6TrDlA8jhm": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Niche Ruby programming meetup with no relevance to product/growth audiences or investor networking.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-F4Hyq91xqN79bFT": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Hardware LED soldering workshop with zero alignment to B2C SaaS, product, or growth audiences.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-h6d4Gy6BXSKwgoZ": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Casual dumpling-making social at a frontier-tech coliving space skews biotech/crypto/hardware — outside target verticals.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dumplings provided, BYOB snacks/drinks"
+  },
+  "evt-NBt5pd3LNxjM9lM": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Large SF tech poker tournament with rotating seats enables meeting many people, but conversations stay casual and poker-focused.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-qsLKcdyUSA91dkw": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Large founder gathering ideal for soft relationship-building, but the explicit no-business-talk rule limits direct ICP or investor conversations.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-FF1n76tEIy5tfds": {
+    "relevance_score": 9,
+    "audience_categories": [
+      "icp"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Dedicated product manager networking event is a direct pipeline to ICPs — PMs, product leaders, and builders in the Bay Area.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-qnUoI0dCoDyzl9u": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Creator economy and DTC brand focus has some B2C overlap but skews influencer marketing and cross-border agency work, not core SaaS product/growth.",
+    "has_food_drinks": true,
+    "food_drinks_details": "welcome drink"
+  },
+  "evt-6WONTMk32QCniFi": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Only 3 guests and focused on frontier science orgs, not B2C SaaS or growth — skip unless you specifically want org-building advice from Allison Duettmann.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-nvvhbFPQS2hxit0": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Casual investor-focused morning with an early-stage AI investor hosting — good low-effort way to build VC relationships over coffee.",
+    "has_food_drinks": true,
+    "food_drinks_details": "coffee"
+  },
+  "evt-466mDskjbIZEoRs": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Aerospace & defense vertical is completely outside your ICP, investor targets, and founder adjacency — hard skip.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-uCvW8khybBNLFMp": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "icp"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Amazon senior PM is an interesting ICP persona but the sustainability/university focus and tiny crowd (9 guests in Santa Clara) make the ROI low.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-1CzMHEHVY34ieVc": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "medium",
+    "why_attend": "Stanford's premier startup competition with a Jerry Yang fireside — decent place to meet ambitious founders and the investors judging, though audience skews student-stage.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-3eCkkxUNVsoG4ET": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Dense room of YC founders across all batches — highest concentration of cracked, adjacent-space founders you'll find, but verify you can get access as it's alumni-only.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-yW1RDepHvnuzmvM": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Intimate salon dinner with repeat founders hosted by DocuSign's founder — extremely high-quality connections if you qualify as a 2x founder, otherwise likely gated.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-BXWJleN3Kv8kA2k": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "TiE community book launch with networking reception draws seasoned South Asian tech entrepreneurs and angels — useful if tapping into that investor network is a priority.",
+    "has_food_drinks": true,
+    "food_drinks_details": "networking reception (likely light appetizers + drinks)"
+  },
+  "evt-CBZv3SQfWYUeVPr": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Unclear what FONP is and the community seems niche — only worth it if you're already a member or know attendees.",
+    "has_food_drinks": true,
+    "food_drinks_details": "snacks provided, food truck on-site for purchase"
+  },
+  "evt-HeWr3XeYcgOirQk": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "Fundraising bootcamp with VC wine social could sharpen your pitch and surface investor intros, but the health tech panel focus dilutes relevance for a B2C SaaS copilot.",
+    "has_food_drinks": true,
+    "food_drinks_details": "wine social"
+  },
+  "evt-YuR7ZPQKbLnvsAZ": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Biotech intern matching event in San Carlos with zero overlap to B2C SaaS or your target audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-hAKF5jFSAeRFABh": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Women founders, investors, and operators in SF with co-working and happy hour — good for meeting startup founders and potential angels in a relaxed setting.",
+    "has_food_drinks": true,
+    "food_drinks_details": "happy hour drinks (4-6:30 PM)"
+  },
+  "evt-F3xBUgN4oFi7a2l": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "medium",
+    "why_attend": "Investors and live pitching are appealing, but the event is explicitly geared toward fintech and health tech verticals — not your space.",
+    "has_food_drinks": true,
+    "food_drinks_details": "wine social (sustainably sourced wines)"
+  },
+  "evt-iNgwnr0rbmkoyJ8": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "investor"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Focused on personal wealth and investment strategies for women leaders — not a startup fundraising or product networking event.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-QAr8IeJGs47ufRt": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Student design hackathon launch at CCA — attendees are college students, not product/growth professionals or investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-XugfOtyd8Aeremw": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "UC Berkeley student design hackathon with no meaningful overlap to your ICP, investor, or founder targets.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-4FAb2EAYpMwn64q": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Casual founder-focused fitness event — low-pressure way to build genuine relationships with SF startup founders, though no guarantee of adjacent-space relevance.",
+    "has_food_drinks": true,
+    "food_drinks_details": "smoothies after workout"
+  },
+  "evt-hdS6djmvCAoz2M0": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Stanford student Figma design work session — wrong audience entirely for ICP, investor, or founder networking.",
+    "has_food_drinks": true,
+    "food_drinks_details": "snacks"
+  },
+  "evt-4byoxbd7GtdKuV1": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "technical",
+      "investor"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Casual poker night with SF builders and a capital allocator (James Win) — good serendipity potential but small turnout and no structured networking.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-VqFTrmii0RIqDlF": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Nix package manager meetup for infrastructure enthusiasts — deeply technical with no relevance to product, growth, or B2C SaaS audiences.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-GemnVPbLM4Azi9P": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Political campaign town hall with zero overlap to B2C SaaS, product, growth, or investor audiences.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-4zHasVhpQBJstTd": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Mobile gaming developer luncheon — gaming is an explicitly excluded vertical with no ICP or investor overlap.",
+    "has_food_drinks": true,
+    "food_drinks_details": "tacos provided"
+  },
+  "evt-nKY39DOo3adSRD9": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Alchemist's founder community and mentors include enterprise/B2B SaaS founders in adjacent spaces plus investor-mentors, in a casual high-quality networking format.",
+    "has_food_drinks": true,
+    "food_drinks_details": "happy hour drinks at tiki bar"
+  },
+  "evt-eoBQ5E46PNw1SGA": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Backend/systems engineers are not your ICPs (product/growth leads), though you may meet technical co-founders building adjacent tools.",
+    "has_food_drinks": true,
+    "food_drinks_details": "food and drinks after trivia"
+  },
+  "evt-dobQ3cn7VBL2XwD": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Cybersecurity compliance chapter meeting with no relevance to B2C SaaS growth, product, or investor audiences.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-LlgcUGFcJI38G5Z": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "The Council Angels and operators attend, offering investor access, but the wellness/Pilates focus will attract health-adjacent people rather than B2C SaaS folks.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-NjRFj6lZMOkbzwR": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Intimate 10-person lunch with Cathay Innovation (€2.5B AUM VC) — exceptional investor access and high-signal conversation in a small-group format.",
+    "has_food_drinks": true,
+    "food_drinks_details": "lunch provided"
+  },
+  "evt-aB94o1goTL1R6bV": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Deep tech showcase (quantum, laser fusion, regenerative medicine, space) — hardware and biotech verticals explicitly outside your target audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-ZDo2qBk4pvijULe": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "icp",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Demand gen professionals are direct ICPs — growth leads who own revenue expansion, making this a small high-signal room to demo or validate your copilot.",
+    "has_food_drinks": true,
+    "food_drinks_details": "happy hour drinks"
+  },
+  "evt-iYMromvRKPeMkN7": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "GDC-adjacent event for game trailer and cinematic artists — gaming is an explicitly excluded vertical.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-jOYt2am0vetqzEF": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Gaming industry mixer with no overlap to B2C SaaS product/growth audience.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks"
+  },
+  "evt-OPwMPqHf0q3CVl2": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "investor",
+      "founder",
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Bain Capital Ventures co-hosts so some investor exposure, but it's a movie screening with limited networking time.",
+    "has_food_drinks": true,
+    "food_drinks_details": "food and refreshments"
+  },
+  "evt-9PjRL4pqGOEvXMO": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Curated gaming industry dinner with no relevance to B2C SaaS or growth teams.",
+    "has_food_drinks": true,
+    "food_drinks_details": "private dinner at R&G Lounge (Cantonese restaurant)"
+  },
+  "evt-mSKAJ7TqZPuHe3Q": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Space geopolitics lecture with no connection to B2C SaaS, growth, or startup networking.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-ZWCDoKjNDftC44i": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Gaming studio leaders networking event with no overlap to B2C SaaS product/growth audience.",
+    "has_food_drinks": true,
+    "food_drinks_details": "bar gathering (drinks)"
+  },
+  "evt-YhLGOxkb20asnU9": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "high",
+    "why_attend": "Startup-focused alumni meetup with active angel investors (Babson Angel Group) and founders with real traction, strong for investor and founder connections.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-y8YpBD4nYUwt5TB": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Women-led business event with some founder presence but focused on culture/community rather than tech/SaaS, and located in San Carlos not SF.",
+    "has_food_drinks": true,
+    "food_drinks_details": "light bites and refreshments (likely)"
+  },
+  "evt-xH4cMzB2NJBfqE7": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Casual AI startup grillout whose attendees are explicitly SaaS builders, good for meeting adjacent tech founders in an intimate setting.",
+    "has_food_drinks": true,
+    "food_drinks_details": "grilled food + drinks"
+  },
+  "evt-e7Vhhir7H571R5a": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "GDC afterparty focused on gaming, VFX, and indie game dev with no B2C SaaS relevance.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-x7sNkGqhS75VdbV": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Neuroscience lecture with an intellectually curious audience but no meaningful path to ICPs, investors, or relevant founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-TdNSEV1fXQtKj8h": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "investor"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Niche GP/LP lunch focused on VC spinout dynamics, not on sourcing or funding startups.",
+    "has_food_drinks": true,
+    "food_drinks_details": "lunch"
+  },
+  "evt-7pjgLrXmgjyxIJe": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "Invite-only room of venture-backed founding CTOs who may connect you to their product/growth counterparts.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-3AwScw7wJZti2ib": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "high",
+    "why_attend": "Room full of actively-raising founders at AngelList with YC-caliber fundraising insights and investor network exposure.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-b5hPHHyweO5w7zA": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "Venture-backed CTOs scaling 10-85 person eng teams could be warm intros to product and growth leads at their companies.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-r47RLTtIEuqLaIP": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "high",
+    "why_attend": "Direct pitch opportunity in front of top VCs and operators with a cash prize, plus a curated room of ambitious early-stage founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-RcEUqmBK2foQUT9": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "medium",
+    "why_attend": "Pitch night with a diverse founder community and pre-accelerator organizers who can open fundraising doors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-2mgiwy12fVC1vLC": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Grassroots hackerspace lightning talks—fun but unlikely to surface ICPs, investors, or relevant founders.",
+    "has_food_drinks": true,
+    "food_drinks_details": "beer available"
+  },
+  "evt-OnlnkkGaTDVORhu": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Large casual social with 100+ attendees good for serendipitous connections but no structured founder/investor focus.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks"
+  },
+  "evt-U1Kga1PK8zADGLi": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "icp",
+      "technical"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Hosted by an AI Product Lead and Google PM—directly ICP-adjacent, though Sunnyvale location adds travel overhead.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-u7Sygh26TYaORkx": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Hardware robotics and material handling expo with zero overlap to B2C SaaS product/growth audience.",
+    "has_food_drinks": true,
+    "food_drinks_details": "reception"
+  },
+  "evt-jyOyEBpmSfuEhsV": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Security-focused RSA side event with CISOs and security practitioners—no overlap with product/growth ICPs or relevant founders.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Japanese-Peruvian cuisine + happy hour drinks"
+  },
+  "evt-Vh1HeAtFTXJrFMb": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Exclusive CISO dinner focused on enterprise security threats—wrong audience entirely for a B2C growth copilot.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Award-winning dinner + welcome drinks"
+  },
+  "evt-9pgAbpqsLqSxi8M": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Intimate security leader dinner about SIEM costs and detection engineering—no relevant ICPs, investors, or adjacent founders.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Curated omakase dinner"
+  },
+  "evt-vv5FAAVKxbbWFlu": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Pioneer Fund batch party with early-stage founders and the Pioneer team—good founder networking but likely restricted to batch members.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Food trucks + drinks"
+  },
+  "evt-BnfoKGYVkhfBbKd": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "RSA-adjacent reception sponsored by security companies—audience is security professionals, not product or growth leaders.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Drinks + light bites"
+  },
+  "evt-kXgysGBClz1m5VD": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Basketball game for senior security professionals—fun but zero overlap with target audience for a revenue expansion copilot.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Premium suite food + beverages"
+  },
+  "evt-Xt8ERxKkLhJswSB": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Academic lecture on music philosophy—no business relevance or networking value for meeting ICPs, investors, or founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-1QTCGr6cgkEkly6": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Curated event for women tech founders with peer-led scaling sessions—potential to meet adjacent SaaS founders, though in Fremont not SF.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-wHxD8SvDw5KgACk": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Student co-op showcase in San Jose—entirely academic audience with no relevant ICPs, investors, or founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-O8G3xxn6Gp9UMtG": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Data infrastructure happy hour for Kafka engineers in Sunnyvale—too infrastructure-focused and far from the product/growth analytics ICP.",
+    "has_food_drinks": true,
+    "food_drinks_details": "Pizza + drinks"
+  },
+  "evt-cJguhzPhwPiDdkw": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "investor",
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Private cybersecurity dinner with Cathay Innovation VC, but wrong industry and invite-only trusted circle makes it inaccessible and off-target.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner + drinks covered"
+  },
+  "evt-brqwscrrB6lCaO6": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Automotive/EV/AV-focused panel with no overlap to B2C SaaS product or growth audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-xEiTDQqa0MKKdBF": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Philosophy-of-agency gathering may attract some tech-adjacent thinkers but lacks product, growth, or investor density.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-GnQYt3L4RDb7Ymu": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Intimate curated founder panel could yield serendipitous connections, but niche parent-founder focus limits ICP and investor density.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-rOfxWmI6UCi4lpv": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "icp",
+      "technical"
+    ],
+    "event_type": "conference",
+    "networking_potential": "medium",
+    "why_attend": "Data engineering practitioners overlap with the data/analytics ICP, though attendees skew infrastructure over product analytics.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-M6W9JOwe0iaF9QD": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "investor",
+      "founder",
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Cathay Innovation VC hosts with founders and investors present, but climate-tech focus is far from B2C SaaS revenue expansion.",
+    "has_food_drinks": true,
+    "food_drinks_details": "networking evening likely includes drinks"
+  },
+  "evt-nCEGWXutfkzl4m0": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Relaxed general-tech community happy hour could surface random relevant contacts, but no targeted ICP or investor draw.",
+    "has_food_drinks": true,
+    "food_drinks_details": "happy hour drinks"
+  },
+  "evt-03aBaQxbnZlveuS": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Robotics and humanoid hardware focus with no relevance to B2C SaaS product/growth teams or software investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-5kPaF9jebXmh395": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Casual SF tech happy hour with icebreakers offers light networking but no targeted draw for product/growth ICPs or investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "happy hour drinks"
+  },
+  "evt-ihCXH89IAzDEQLA": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Private, invitation-only real estate brunch with no overlap to B2C tech/SaaS audience.",
+    "has_food_drinks": true,
+    "food_drinks_details": "brunch + coffee"
+  },
+  "evt-mE1nGMuapZsfSJw": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Tiny co-working circle (4 guests) in Santa Clara with no investor, ICP, or founder networking value.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-o1lSR7rxNUbDw8l": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "VCs attend but the healthcare AI focus is explicitly outside Refix Prism's target verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-qsb2Oq99MN1Zvrp": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Technical coding-agents workshop may attract developers but unlikely to surface PMs, growth leads, or investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-llHMiIBtkwLiBdI": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Niche voice-AI builder gathering with minimal overlap to product/growth ICP or relevant investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-X7EoXrWCuRz9YML": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Chinese-language AI infrastructure/Web3 event with limited relevance to B2C SaaS growth tooling.",
+    "has_food_drinks": true,
+    "food_drinks_details": "lobster dinner"
+  },
+  "evt-D97io5RMXTuWp4B": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "icp"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "medium",
+    "why_attend": "Enterprise CIO dinner has senior tech buyers but is enterprise-governance focused, not B2C product/growth.",
+    "has_food_drinks": true,
+    "food_drinks_details": "executive dinner"
+  },
+  "evt-NCeNT8DqfiYnd81": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "investor",
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "Large audience (92) with a Mayfield investor and Stanford AI community offers serendipitous VC and founder connections.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-PNnL6pbzb5SZbXa": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Agentic-AI panel with a VC host but zero registrations and Oakland location reduce practical value.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-EDilSPf9D0qmkaZ": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "demo_day",
+    "networking_potential": "medium",
+    "why_attend": "Demo day + founders mixer with investor participation is a decent venue to pitch and meet adjacent AI founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-xbC8sIP8tf0Yihg": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Crypto-focused bot-building hackathon with minimal overlap to B2C SaaS product/growth audiences.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-LLaekW1XcxeHwjU": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Niche technical workshop on knowledge graphs in Oakland with a very small, protocol-focused audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-38FmuyvhAOyF4pd": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "Curated group of Palo Alto founders and operators building with AI tooling — good for founder connections.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-eKVtuUel1WUTMDc": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "Dev-tool founders discussing AI-era software stacks with drinks and demos — adjacent but developer-focused.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks"
+  },
+  "evt-1zJg0AgwpGjEYn0": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Small roundtable on AI companionship products — not aligned with revenue expansion or B2C SaaS growth.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-B2h1tCoVY2rUquo": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "icp"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "SaaS leaders and marketing executives in attendance — potential ICPs who understand growth and product challenges.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-DHr2WycmcZtKQxl": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "high",
+    "why_attend": "Large SF gathering of AI developers and API builders with demos and drinks — broad networking in the AI ecosystem.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks"
+  },
+  "evt-jnU6wSlb7ZFIo2o": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "social",
+    "networking_potential": "high",
+    "why_attend": "Intimate invite-only event with 12 AI founders and investors including dinner — ideal for deep investor and founder connections.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner + karting included"
+  },
+  "evt-BPETY4hHgOX7KHb": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "Technical leaders from major SaaS/infra companies discussing production AI — potential to meet engineering decision-makers.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-dCNB1GaYKOrJVGu": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Hosted by consumer AI VC Parable but heavily gaming-focused during GDC week — outside target verticals.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks"
+  },
+  "evt-GULVROzPdzHhm9P": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Gaming-focused mixer during GDC week with no overlap to B2C SaaS product/growth audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-BXBSgg3ZhSFzJB2": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Game developer mixer focused on concept art and asset workflows—wrong vertical entirely.",
+    "has_food_drinks": true,
+    "food_drinks_details": "free food and drinks"
+  },
+  "evt-zpJdOBRFWPvhmQk": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "investor",
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "Robotics/hardware focus is outside target verticals, though a robotics VC fund is hosting.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-FKt0BpSG3rPFXyj": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "investor",
+      "founder",
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Invitation-only robotics/hardware dinner—high-quality room but entirely wrong vertical.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-vtH8xf8rY9l4bIN": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "DevOps/SRE-focused unconference may surface infra-adjacent founders but no ICPs or investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "pizza and drinks"
+  },
+  "evt-YW9mSF1IVkdmDC0": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "medium",
+    "why_attend": "Intimate room of AI founders and investors, but media/entertainment focus limits ICP overlap.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-n0LvdzNkO9BoXpb": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Spanish AI community with founders and investors, but niche diaspora focus limits ICP density.",
+    "has_food_drinks": true,
+    "food_drinks_details": "appetizers, burritos, and drinks"
+  },
+  "evt-kvlwXBk2lxNaSnr": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "high",
+    "why_attend": "Technical founders building AI memory/context products are strongly adjacent to an AI revenue copilot—good founder-to-founder connections.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-dwKa79HW5M2Kb5r": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Product demo session for Lindy's AI assistant—useful for seeing the space but low networking value.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-pkiMRh0kkosaxxC": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Intimate dinner with venture-backed AI-native founders and investors building agentic systems—strong adjacent-founder and investor overlap.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-XbC5otuwW9CuBQR": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Public goods and frontier research hackathon with Protocol Labs—too niche and builder-focused to reliably surface B2C SaaS product/growth contacts or investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "likely snacks and drinks during hackathon (not specified)"
+  },
+  "evt-OLefhBSOBSHZ4sY": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "GPU programming and compiler tooling booth—no overlap with B2C SaaS product/growth audience or relevant investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-37X1E9GtOlK8R7u": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Curated investor-founder lunch with strong VC presence, but heavily skewed toward Nordic AI infra deals rather than B2C SaaS growth tooling.",
+    "has_food_drinks": true,
+    "food_drinks_details": "curated lunch"
+  },
+  "evt-DnD9jfiiWZC9va0": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Deep-technical graph database and RAG meetup—audience is data engineers and researchers, not product/growth decision-makers at B2C companies.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-haSo3u5H5u4xDTc": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "pitch_night",
+    "networking_potential": "medium",
+    "why_attend": "Startup pitch event with investor panel, but explicitly focused on physical AI and robotics—wrong vertical for meeting B2C SaaS ICPs.",
+    "has_food_drinks": true,
+    "food_drinks_details": "likely drinks and light bites at evening showcase (not specified)"
+  },
+  "evt-jW2wFlS7Kf9RJDo": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Intimate 15-person CTO dinner offers high-quality connections with engineering leaders who may champion tools internally, though attendees are eng leaders not product/growth.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner covered"
+  },
+  "evt-RYaHJFhvzJYbUSH": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Construction robotics and hardware precision demos—explicitly outside Refix Prism's target verticals.",
+    "has_food_drinks": true,
+    "food_drinks_details": "closing reception (likely drinks and light bites)"
+  },
+  "evt-0cplsh0cPMEkj5P": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "icp",
+      "founder"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "Senior practitioners from Bill.com, Amazon, Walmart, and Meta discussing AI for customer insights and growth—strong ICP overlap with product and analytics leaders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-6nebWeoIfKEjPNd": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "investor",
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "high",
+    "why_attend": "Contrary-hosted evening with demos from top AI startups draws high-caliber founders and VCs—good for investor intros and meeting cracked adjacent founders.",
+    "has_food_drinks": true,
+    "food_drinks_details": "likely drinks (evening tech talk event, not specified)"
+  },
+  "evt-A3lydir4jDhJoZP": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "AI infrastructure happy hour focused on distributed compute and inference—wrong audience for B2C product/growth tooling conversations.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks"
+  },
+  "evt-vYeivENCFRb8tbK": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Biotech/drug discovery focus is entirely outside Refix Prism's target audience and explicitly excluded vertical.",
+    "has_food_drinks": true,
+    "food_drinks_details": "private dinner at upscale restaurant"
+  },
+  "evt-ENLX0n6E9e8I22O": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Pharma commercial analytics is adjacent in methodology but wrong vertical—no B2C SaaS ICPs or relevant investors here.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-DX9bhSu0bt6q2BF": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Physical AI/robotics/hardware is an explicitly excluded vertical despite having some VC and founder presence.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-UjdEjyugLVFFQAd": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Hyper-niche accounting/fintech dinner with no overlap to B2C SaaS product or growth audiences.",
+    "has_food_drinks": true,
+    "food_drinks_details": "house-made pasta dinner"
+  },
+  "evt-q5Ku6I4Nm6dvm2f": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "AI communications and media-focused crowd—interesting intellectually but no ICPs, investors, or adjacent founders likely.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-HPzJlvVbrXvUfph": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Curated lunch with 88 handpicked founders and leading investors across AI and venture—strong investor and founder networking despite Nordic focus.",
+    "has_food_drinks": true,
+    "food_drinks_details": "curated lunch"
+  },
+  "evt-p7roQZwQ6whzmq0": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Deep technical workshop on model distillation—useful for AI builders but unlikely to surface ICPs, investors, or relevant founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-Pc0n0LDlcpXCaaa": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "social",
+    "networking_potential": "high",
+    "why_attend": "Small vetted group of 15 AI founders and investors with extended bonding time—ideal for deep relationship-building with potential investors and adjacent founders.",
+    "has_food_drinks": true,
+    "food_drinks_details": "BBQ and drinks after hike"
+  },
+  "evt-ImUuhdD0Mgydds8": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "GRC and cybersecurity governance focus with no B2C SaaS product/growth audience overlap.",
+    "has_food_drinks": true,
+    "food_drinks_details": "hors d'oeuvres & cocktails"
+  },
+  "evt-0nDmo7Qevk60P0Q": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Cybersecurity startup expo is a different vertical entirely with no relevant ICPs or adjacent founders for a revenue expansion copilot.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-INhiQN4gpcM1PJi": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Cybersecurity coworking space during RSAC with no overlap to product/growth ICP.",
+    "has_food_drinks": true,
+    "food_drinks_details": "coffee + pastries + pizza daily"
+  },
+  "evt-gny65vPtANPDCR6": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Infosec CTF and soldering workshops with zero product/growth or investor audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-zhCnUNUmNITXmkV": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical",
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Developer security social during RSAC week — wrong audience for a revenue expansion copilot.",
+    "has_food_drinks": true,
+    "food_drinks_details": "happy hour drinks"
+  },
+  "evt-1O7BgQ7MTl2hqKX": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "icp",
+      "founder"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "high",
+    "why_attend": "AI-in-management topic attracts product leaders and growth managers rethinking workflows — strong ICP overlap.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-Gh4HgRxIe6fOPHG": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "founder",
+      "investor",
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "high",
+    "why_attend": "Founders Garage (Jeff Lawson) + TQ Ventures in an intimate agentic AI setting — ideal for meeting cracked founders and investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "food + drinks during mingle"
+  },
+  "evt-9ebKnTnGiZGa3hC": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "demo_day",
+    "networking_potential": "low",
+    "why_attend": "Health-tech demo night is explicitly outside target verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-cICd4IfvcuvlnjA": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Niche open-source knowledge-graph workshop in Mountain View — too technical and off-location.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-IpKgpcPJEOjvroH": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "demo_day",
+    "networking_potential": "medium",
+    "why_attend": "300-person AI demo day with SaaS builders from WorkOS, OpenAI, Indeed — decent founder and technical networking but skews engineering over product/growth.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-8TtuMg3B2r1HHNA": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Enterprise XR/VR hardware conference — wrong vertical and audience for a B2C SaaS revenue copilot.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-egSKvEtsGbgZogy": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Biomedical surgical robotics talk — health tech and hardware, explicitly excluded verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-bst9yfi8ybINV9g": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Climate-focused event with Xoogler operators, but audience is climate tech founders — not B2C SaaS product/growth people or relevant investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-jXJ0qe633aiVXUs": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Deep infrastructure engineering conference on data execution engines — attendees are infra engineers, not product/growth leaders or investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-oh5HqwzIILACses": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Legal operations gathering with zero overlap to B2C SaaS product/growth audiences or relevant investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "lunch included"
+  },
+  "evt-Ujvhvast7TqVPQ7": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "medium",
+    "why_attend": "Members-only dinner at a frontier tech hub, but community skews biotech/longevity/hardware — explicitly outside your target founder verticals.",
+    "has_food_drinks": true,
+    "food_drinks_details": "community-cooked dinner, potluck style"
+  },
+  "evt-ZIDA1ZzUW2BGrMK": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Generative art and creative coding music night — no ICP, investor, or relevant founder presence expected.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-IQqCmtaaihOojKC": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Print magazine launch party exploring philosophy and technology — interesting crowd but no meaningful overlap with B2C SaaS or investor targets.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-qr6YKHptAPxbDIE": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Dance party at Frontier Tower — purely social with no structured networking or relevant audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-HtcIUETYM7Rn3EH": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "Casual founder picnic hosted by a YC alum with a tech startup community — good chance to meet early-stage founders in adjacent spaces, though audience specifics are unclear.",
+    "has_food_drinks": true,
+    "food_drinks_details": "snacks and picnic provisions provided"
+  },
+  "evt-oEuaSqe1Dxbsnha": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Public transit political campaign kickoff — no relevant tech, founder, or investor audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-85HMtTf0pmVMB5f": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "VC-hosted cybersecurity networking with cocktails — has investors but they're cybersecurity-specific, unlikely to invest in B2C SaaS revenue tools.",
+    "has_food_drinks": true,
+    "food_drinks_details": "cocktails at a cocktail bar"
+  },
+  "evt-rNesUa1yiWHoVMo": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "icp",
+      "founder"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "AppsFlyer attracts growth and analytics professionals who are direct ICPs, and an intimate 4-person dinner maximizes meaningful conversation.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-AYgDrP4wryReuyU": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Personal productivity coaching with no clear path to meeting ICPs, investors, or relevant founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-H0hySevWqmwMZNq": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Art critique and tea gathering with no relevance to B2C SaaS, growth, or tech startup networking.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-KUbBneqSnFlpFLR": {
+    "relevance_score": 5,
+    "audience_categories": [
+      "founder",
+      "investor",
+      "technical"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Curated room of hustling startup FDEs and former founders hosted by Afore Capital (pre-seed VC), good for founder and investor connections.",
+    "has_food_drinks": true,
+    "food_drinks_details": "beer, wine, and non-alcoholic options"
+  },
+  "evt-37QZt6lW31nhQvS": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "social",
+    "networking_potential": "medium",
+    "why_attend": "Launch party for a creator/social media tool with SF tech founders in an adjacent space, decent casual networking.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-KAwEUVeDwFqx7ZX": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Small faith-centered breakfast in Santa Clara with limited attendees and no clear ICP or investor overlap.",
+    "has_food_drinks": true,
+    "food_drinks_details": "breakfast"
+  },
+  "evt-m1JR8y1FHMpclpU": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Transit petition signature gathering with zero relevance to B2C SaaS, investors, or founders.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-S4lp02w0sSNfWbg": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Gaming industry F1 watch party tied to GDC — gaming is explicitly outside the target verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-EqmKKmT8eVl3w37": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical",
+      "founder"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Members-only hackathon skewing biotech/neuroscience/crypto with limited overlap to B2C SaaS growth tools.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-YDAeFMG5JPlXaYx": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Chinese-language real estate financing seminar in Pleasanton with no tech or startup relevance.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-FFQ4dHBa9HtlPGA": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Portuguese gaming industry circle is entirely outside your ICP verticals and founder adjacency criteria.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-WIBwATFmuannBqo": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Fortnite/gaming art mixer with no overlap to B2C SaaS product or growth audiences.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-03ZbhbikDIaUfLM": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "Stanford/StartX pitch coaching with an experienced investor is great fundraising prep, though access is restricted to Sprint participants.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-PYZGTuh2L6L50pB": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "investor",
+      "founder"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "medium",
+    "why_attend": "1:1 pitch coaching from a seasoned startup mentor at StartX helps sharpen your fundraising narrative before investor meetings.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-XNb13duqqhBMIcU": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Intimate dinner exclusively for gaming executives discussing game partnerships — wrong vertical entirely.",
+    "has_food_drinks": true,
+    "food_drinks_details": "cocktails + curated dinner menu"
+  },
+  "evt-fbfzWSeGbGwADLg": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Gaming trust & safety niche dinner with no relevance to B2C SaaS revenue expansion or your target personas.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-bgetlMANga6IUEF": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Biotech genomics sequencing training is completely outside your target verticals and audience.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-p5mIGDUqyp693gl": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Game developer community meetup with no crossover to B2C SaaS product/growth professionals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-8mYvYf3WBA5IGf6": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Cleantech funding session targets energy/hardware founders — wrong vertical and no ICP or investor overlap.",
+    "has_food_drinks": true,
+    "food_drinks_details": "lunch provided"
+  },
+  "evt-UFlqK6SMiiq78ZS": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Upscale GDC gaming/CTV gathering — despite having founders and operators, the gaming focus makes it a poor fit.",
+    "has_food_drinks": true,
+    "food_drinks_details": "champagne + caviar tasting + elevated bites"
+  },
+  "evt-hNEHR0V01vzFips": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "High-quality Stanford founder community with a B2C platform cofounder, but exclusive to StartX members and located in Palo Alto.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-bjk7Jw9lBo9RdAt": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Biotech-focused meetup with a gene tech VC — outside your target verticals entirely.",
+    "has_food_drinks": true,
+    "food_drinks_details": "coffee"
+  },
+  "evt-pjgjxTrbYMkoZ3J": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Tiny AI-adjacent social with almost no details — too vague and small to justify prioritizing.",
+    "has_food_drinks": true,
+    "food_drinks_details": "likely drinks (party)"
+  },
+  "evt-QwGqI68j305YI1e": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "workshop",
+    "networking_potential": "low",
+    "why_attend": "Digital art workshop with no relevance to B2C SaaS, growth, or startup networking.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-qG2KeWEmytRB2Cc": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "hackathon",
+    "networking_potential": "low",
+    "why_attend": "Wikipedia-themed game jam for designers and hobbyists — no ICP, investor, or founder overlap.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-PxSZRus8O6DDdEv": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "other",
+    "networking_potential": "low",
+    "why_attend": "Academic PhD candidacy ceremony at Berkeley/UCSF with no startup or industry relevance.",
+    "has_food_drinks": true,
+    "food_drinks_details": "likely refreshments (ceremony)"
+  },
+  "evt-q3HBLaLkLc0ybpq": {
+    "relevance_score": 7,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "high",
+    "why_attend": "Casual SF startup coffee with founders, operators, and a VC scout — great for warm intros and investor connections.",
+    "has_food_drinks": true,
+    "food_drinks_details": "coffee"
+  },
+  "evt-0Wf6dVvmmO4ajtH": {
+    "relevance_score": 4,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "medium",
+    "why_attend": "React Native dev meetup with mobile product builders — technically adjacent but audience skews engineering over growth/product.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-KlSQLl108q0s9Tb": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "demo_day",
+    "networking_potential": "low",
+    "why_attend": "Bio/biotech showcase — explicitly outside your target adjacent verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-UNHOkkEtrDgOoLs": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Hardware and space/defense focused — explicitly outside your target verticals.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-CK8zlmIS8XMuMQS": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Policy-focused Harvard Kennedy School alumni mixer with no meaningful overlap with B2C tech/SaaS ICPs or investors.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-b2uQjH9F2RXomWA": {
+    "relevance_score": 9,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Curated Seed-to-Series A founders dinner with a Headline VC scout and Rho sponsorship—ideal for meeting cracked founders and early-stage investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-meHpkgOTbSaZmQD": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Security operations leaders panel tied to RSA Conference with no B2C product/growth audience overlap.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks"
+  },
+  "evt-VYF35kmjQnUP66Z": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "social",
+    "networking_potential": "high",
+    "why_attend": "Pioneer Fund portfolio founders and YC friends in a casual setting—great density of early-stage tech founders and adjacent investors.",
+    "has_food_drinks": true,
+    "food_drinks_details": "pizza + drinks at bar"
+  },
+  "evt-BpOjoQMJclcLsCv": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Cybersecurity vendor happy hour co-sponsored by security companies with no relevance to B2C product or growth teams.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks"
+  },
+  "evt-EWp9z9CoNnApPbM": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "investor"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "ServiceNow Ventures and Norwest VCs are present but the audience skews heavily cybersecurity—investor access is possible but context is wrong.",
+    "has_food_drinks": true,
+    "food_drinks_details": "tacos + drinks"
+  },
+  "evt-0o5LKz83GBFzm3A": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "low",
+    "why_attend": "Invite-only CISO dinner focused on enterprise security scaling—entirely outside B2C product/growth domain.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-yWsFr5sn9ZIaUaZ": {
+    "relevance_score": 8,
+    "audience_categories": [
+      "founder",
+      "investor"
+    ],
+    "event_type": "dinner",
+    "networking_potential": "high",
+    "why_attend": "Exclusive $1M+ funded founders dinner with aligned investors and Fidelity backing—high-signal room for founder and investor connections.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner"
+  },
+  "evt-FfyxCN2fRoIVnRR": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "social",
+    "networking_potential": "low",
+    "why_attend": "Cybersecurity-focused happy hour during RSA week with no B2C tech or product audience.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks"
+  },
+  "evt-nkui49oAnqfzrVL": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Casual security practitioners meetup during RSA with zero overlap to B2C product, growth, or investor audiences.",
+    "has_food_drinks": true,
+    "food_drinks_details": "drinks"
+  },
+  "evt-lmWqyDjgxXBD5tH": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder"
+    ],
+    "event_type": "networking",
+    "networking_potential": "high",
+    "why_attend": "Intimate founder mixer with collaboration energy, good for meeting early-stage founders in a cozy, high-trust setting near Union Square.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-38eQmsUfMSm0ZUU": {
+    "relevance_score": 2,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Niche recruiting meetup with no overlap to product, growth, investor, or adjacent-founder audiences.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-db0Kuf2VzcNmgln": {
+    "relevance_score": 3,
+    "audience_categories": [
+      "technical"
+    ],
+    "event_type": "meetup",
+    "networking_potential": "low",
+    "why_attend": "Enterprise storage CEO fireside chat skews toward infrastructure and enterprise tech, not B2C SaaS or growth.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-5h0NipzmCyWzOp2": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "conference",
+    "networking_potential": "low",
+    "why_attend": "Climate/sustainability focus with no relevance to B2C SaaS, product, or growth audiences.",
+    "has_food_drinks": false,
+    "food_drinks_details": ""
+  },
+  "evt-UgrqFdOQ6m4rT1r": {
+    "relevance_score": 6,
+    "audience_categories": [
+      "founder",
+      "technical"
+    ],
+    "event_type": "networking",
+    "networking_potential": "medium",
+    "why_attend": "SaaS and AI builders drinkup hosted by WorkOS founder—solid for meeting cracked dev-tools founders in adjacent spaces.",
+    "has_food_drinks": true,
+    "food_drinks_details": "tacos + drinks"
+  },
+  "evt-fhcl9tUwWw7rnSj": {
+    "relevance_score": 1,
+    "audience_categories": [
+      "irrelevant"
+    ],
+    "event_type": "networking",
+    "networking_potential": "low",
+    "why_attend": "Biotech operators happy hour—explicitly outside target verticals and scheduled for June, not March.",
+    "has_food_drinks": true,
+    "food_drinks_details": "complimentary food and drinks"
   }
 }
