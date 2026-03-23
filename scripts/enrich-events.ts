@@ -1,12 +1,11 @@
 /**
- * Enrich events with LLM analysis using Claude CLI
+ * Enrich events with LLM analysis using Gemini Flash API
  * Run with: npm run enrich
  */
 
 import { readFileSync, writeFileSync, existsSync, renameSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { execFileSync } from "node:child_process";
 import type { EventEnrichment } from "../src/types";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -14,7 +13,17 @@ const PROJECT_ROOT = join(__dirname, "..");
 
 const EVENTS_PATH = join(PROJECT_ROOT, "public", "events.json");
 const ENRICHMENT_PATH = join(PROJECT_ROOT, "public", "enrichment.json");
-const BATCH_SIZE = 10;
+
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+if (!GEMINI_API_KEY) {
+  console.error("Missing GEMINI_API_KEY env variable. Set it in .env or export it.");
+  process.exit(1);
+}
+const GEMINI_MODEL = "gemini-2.0-flash";
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+
+const BATCH_SIZE = 25;
+const PARALLEL_REQUESTS = 5;
 const MAX_RETRIES = 2;
 
 interface EventSummary {
@@ -72,40 +81,53 @@ function buildPrompt(batch: EventSummary[]): string {
 - Potential investors (VCs, angels)
 - Highly cracked founders in adjacent spaces (NOT gaming, health tech, biotech, hardware)
 
-For each event below, provide enrichment data. Return ONLY a valid JSON object with NO markdown fences, NO explanation. Keys are event IDs, values have this exact structure:
+For each event below, provide enrichment data. Return ONLY a valid JSON object. The keys MUST be the exact "id" field from each event (e.g. "evt-abc123"). Do NOT use array indices as keys.
 
+Example output format:
 {
-  "EVENT_ID": {
-    "relevance_score": <1-10, 10 = perfect for meeting their target audience>,
-    "audience_categories": [<array of applicable: "icp", "investor", "founder", "technical", "irrelevant">],
-    "event_type": "<conference|meetup|workshop|demo_day|pitch_night|hackathon|dinner|networking|social|other>",
-    "networking_potential": "<high|medium|low>",
-    "why_attend": "<one concise sentence>",
-    "has_food_drinks": <true|false>,
-    "food_drinks_details": "<e.g. 'dinner + open bar' or '' if none>"
+  "evt-abc123": {
+    "relevance_score": 7,
+    "audience_categories": ["founder", "investor"],
+    "event_type": "meetup",
+    "networking_potential": "high",
+    "why_attend": "Great networking opportunity.",
+    "has_food_drinks": true,
+    "food_drinks_details": "dinner + open bar"
   }
 }
 
 Events to analyze:
-${JSON.stringify(batch, null, 2)}`;
+${batch.map((e) => `- id: ${e.id} | name: ${e.name} | desc: ${e.description} | guests: ${e.guest_count} | free: ${e.is_free} | city: ${e.city} | hosts: ${e.hosts}`).join("\n")}`;
 }
 
-function callClaude(prompt: string): string {
-  const result = execFileSync(
-    "claude",
-    ["-p", prompt, "--output-format", "text"],
-    {
-      encoding: "utf-8",
-      maxBuffer: 10 * 1024 * 1024,
-      timeout: 180_000,
+async function callGemini(prompt: string): Promise<string> {
+  const body = {
+    contents: [{ parts: [{ text: prompt }] }],
+    generationConfig: {
+      temperature: 0.2,
+      responseMimeType: "application/json",
     },
-  );
-  return result;
+  };
+
+  const res = await fetch(GEMINI_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Gemini API ${res.status}: ${text.slice(0, 200)}`);
+  }
+
+  const json = await res.json();
+  const text = json.candidates?.[0]?.content?.parts?.[0]?.text;
+  if (!text) throw new Error("Empty response from Gemini");
+  return text;
 }
 
 function parseResponse(raw: string): Record<string, EventEnrichment> {
   let cleaned = raw.trim();
-  // Strip markdown code fences if present
   if (cleaned.startsWith("```")) {
     cleaned = cleaned.replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "");
   }
@@ -141,13 +163,14 @@ async function enrichBatch(
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     try {
       const prompt = buildPrompt(batch);
-      const raw = callClaude(prompt);
+      const raw = await callGemini(prompt);
       return parseResponse(raw);
     } catch (err: any) {
       console.error(`  Attempt ${attempt + 1} failed: ${err.message}`);
       if (attempt < MAX_RETRIES) {
-        console.log("  Retrying in 3s...");
-        await new Promise((r) => setTimeout(r, 3000));
+        const delay = 2000 * (attempt + 1);
+        console.log(`  Retrying in ${delay / 1000}s...`);
+        await new Promise((r) => setTimeout(r, delay));
       }
     }
   }
@@ -160,18 +183,9 @@ async function main() {
     process.exit(1);
   }
 
-  // Verify claude CLI is available
-  try {
-    execFileSync("claude", ["--version"], { encoding: "utf-8", timeout: 10_000 });
-  } catch {
-    console.error("Claude CLI not found. Make sure `claude` is on your PATH.");
-    process.exit(1);
-  }
-
   const events: any[] = JSON.parse(readFileSync(EVENTS_PATH, "utf-8"));
   const enrichment = loadEnrichment();
 
-  // Filter to unenriched events
   const toEnrich = events.filter(
     (e) => e.event?.api_id && !enrichment[e.event.api_id],
   );
@@ -187,7 +201,6 @@ async function main() {
 
   const summaries = toEnrich.map(summarizeEvent);
 
-  // Split into batches
   const batches: EventSummary[][] = [];
   for (let i = 0; i < summaries.length; i += BATCH_SIZE) {
     batches.push(summaries.slice(i, i + BATCH_SIZE));
@@ -196,27 +209,38 @@ async function main() {
   let enriched = 0;
   let failed = 0;
 
-  for (let i = 0; i < batches.length; i++) {
-    const batch = batches[i];
+  // Process batches in parallel groups
+  for (let i = 0; i < batches.length; i += PARALLEL_REQUESTS) {
+    const group = batches.slice(i, i + PARALLEL_REQUESTS);
+    const groupStart = i + 1;
+    const groupEnd = Math.min(i + PARALLEL_REQUESTS, batches.length);
     console.log(
-      `\nBatch ${i + 1}/${batches.length} (${batch.length} events)...`,
+      `\nBatches ${groupStart}-${groupEnd} of ${batches.length} (${PARALLEL_REQUESTS} parallel)...`,
     );
 
-    const result = await enrichBatch(batch);
+    const results = await Promise.all(
+      group.map((batch, j) =>
+        enrichBatch(batch).then((result) => ({
+          batchIndex: i + j,
+          batch,
+          result,
+        })),
+      ),
+    );
 
-    if (result) {
-      Object.assign(enrichment, result);
-      saveEnrichment(enrichment);
-      enriched += Object.keys(result).length;
-      console.log(
-        `  OK. Total enriched: ${Object.keys(enrichment).length}/${events.length}`,
-      );
-    } else {
-      failed += batch.length;
-      console.error(
-        `  Failed after ${MAX_RETRIES + 1} attempts. Skipping ${batch.length} events.`,
-      );
+    for (const { batchIndex, batch, result } of results) {
+      if (result) {
+        Object.assign(enrichment, result);
+        enriched += Object.keys(result).length;
+        console.log(`  Batch ${batchIndex + 1}: ${Object.keys(result).length} enriched`);
+      } else {
+        failed += batch.length;
+        console.error(`  Batch ${batchIndex + 1}: FAILED (${batch.length} events skipped)`);
+      }
     }
+
+    saveEnrichment(enrichment);
+    console.log(`  Total enriched: ${Object.keys(enrichment).length}/${events.length}`);
   }
 
   console.log(

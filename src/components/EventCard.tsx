@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { LumaEvent, EventEnrichment, SelectionState } from "../types";
 
 interface EventCardProps {
@@ -32,12 +33,14 @@ export default function EventCard({
   selection,
   onSelectionChange,
 }: EventCardProps) {
+  const [expanded, setExpanded] = useState(false);
   const { event } = entry;
   const isFree = entry.ticket_info?.is_free ?? false;
   const guestCount = entry.guest_count ?? 0;
   const city = event.geo_address_info?.city ?? "";
   const address = event.geo_address_info?.address ?? "";
   const lumaUrl = `https://lu.ma/${event.url}`;
+  const hasLongDescription = (event.description?.length ?? 0) > 150;
 
   const cycle = () => {
     const next: Record<SelectionState, SelectionState> = {
@@ -126,11 +129,21 @@ export default function EventCard({
         {address && <div className="event-address">{address}</div>}
 
         {event.description && (
-          <p className="event-description">
-            {event.description.length > 200
-              ? event.description.slice(0, 200) + "..."
-              : event.description}
-          </p>
+          <div className="event-description-wrapper">
+            <p className={`event-description ${!expanded && hasLongDescription ? "collapsed" : ""}`}>
+              {expanded || !hasLongDescription
+                ? event.description
+                : event.description.slice(0, 150) + "..."}
+            </p>
+            {hasLongDescription && (
+              <button
+                className="expand-btn"
+                onClick={() => setExpanded(!expanded)}
+              >
+                {expanded ? "Show less" : "Show more"}
+              </button>
+            )}
+          </div>
         )}
       </div>
     </div>

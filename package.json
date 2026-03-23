@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "fetch": "npx tsx scripts/fetch-events.ts",
-    "enrich": "npx tsx scripts/enrich-events.ts"
+    "enrich": "node --env-file=.env --import tsx/esm scripts/enrich-events.ts"
   },
   "dependencies": {
     "react": "^19.2.0",

@@ -176,20 +176,48 @@ export default function EventList({
       </div>
 
       <div className="event-list">
-        {filtered.map((entry) => (
-          <EventCard
-            key={entry.event.api_id}
-            entry={entry}
-            enrichment={enrichments[entry.event.api_id]}
-            selection={selections[entry.event.api_id] ?? "undecided"}
-            onSelectionChange={(state) =>
-              onSelectionChange(entry.event.api_id, state)
-            }
-          />
-        ))}
         {filtered.length === 0 && (
           <p className="no-events">No events match your filters.</p>
         )}
+        {(() => {
+          const grouped: { label: string; events: LumaEvent[] }[] = [];
+          let currentLabel = "";
+          for (const entry of filtered) {
+            const d = new Date(entry.event.start_at);
+            const label = d.toLocaleDateString("en-US", {
+              weekday: "long",
+              month: "long",
+              day: "numeric",
+              year: "numeric",
+            });
+            if (label !== currentLabel) {
+              currentLabel = label;
+              grouped.push({ label, events: [] });
+            }
+            grouped[grouped.length - 1].events.push(entry);
+          }
+          return grouped.map((group) => (
+            <div key={group.label} className="date-section">
+              <div className="date-header">
+                <h2 className="date-label">{group.label}</h2>
+                <span className="date-count">{group.events.length} event{group.events.length !== 1 ? "s" : ""}</span>
+              </div>
+              <div className="date-events">
+                {group.events.map((entry) => (
+                  <EventCard
+                    key={entry.event.api_id}
+                    entry={entry}
+                    enrichment={enrichments[entry.event.api_id]}
+                    selection={selections[entry.event.api_id] ?? "undecided"}
+                    onSelectionChange={(state) =>
+                      onSelectionChange(entry.event.api_id, state)
+                    }
+                  />
+                ))}
+              </div>
+            </div>
+          ));
+        })()}
       </div>
     </div>
   );
